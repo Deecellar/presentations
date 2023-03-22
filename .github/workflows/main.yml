@@ -48,8 +48,18 @@ jobs:
         env:
           MARP_USER: root:root
 
-      - name: Deploy Github Pages
-        if: ${{ github.event_name == 'push' }}
-        uses: rayluo/github-pages-overwriter@v1.2
+      - name: Deploy preview
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: rossjrw/pr-preview-action@v1
         with:
-          source-directory: ./build/
+          source-dir: ./build/
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
+
+      - name: Deploy production
+        if: ${{ github.event_name == 'push' }}
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: ./build/
+          clean-exclude: pr-preview/
