@@ -358,23 +358,41 @@ export async function getServerSideProps({
 ---
 
 ```jsx
-  export async function getServerSideProps(context) {
-    const { req, res } = context;
+import { getSession } from 'next-auth/client'
 
-    // Verificar si el usuario está autenticado
+const protectedRoutes = ['/dashboard']
 
-    if (!user) {
-      res.setHeader('location', '/login');
-      res.statusCode = 302;
-      res.end();
+export default async function middleware(req, ev) {
+  const { pathname } = req.nextUrl
+
+  if (protectedRoutes.includes(pathname)) {
+    const session = await getSession({ req })
+
+    if (!session) {
+      return {
+        status: 302,
+        headers: {
+          Location: '/login',
+        },
+      }
     }
-
-    return {
-      props: {
-        // datos para el componente
-      },
-    };
   }
+
+  // apply trailing slash handling
+  if (
+    !pathname.endsWith('/') &&
+    !pathname.match(/((?!\.well-known(?:\/.*)?)(?:[^/]+\/)*[^/]+\.\w+)/)
+  ) {
+    req.nextUrl.pathname += '/'
+    return {
+      status: 301,
+      headers: {
+        Location: req.nextUrl.href,
+      },
+    }
+  }
+}
+
   ```
 
 ---
