@@ -68,8 +68,8 @@ paginate: true
 
 ---
 
-#Arquitectura de Vitess
-![image](https://github.com/Deecellar/presentations/assets/12878831/6c50b8d6-f65a-4461-84be-92a1aa773938)
+# Arquitectura de Vitess
+![image](https://github.com/Deecellar/presentations/assets/12878831/357109f1-0c2b-4cf6-b446-9daeb02c685d)
 
 
 ---
