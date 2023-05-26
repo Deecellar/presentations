@@ -84,6 +84,7 @@ paginate: true
 ## Una solución de clustering de bases de datos altamente disponible
 
 ![Galera Cluster](https://github.com/Deecellar/presentations/assets/12878831/ddcdeeab-00b4-4040-93a7-8f549c5ba057)
+
 ---
 
 <!-- Slide: ¿Qué es Galera Cluster? -->
