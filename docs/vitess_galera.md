@@ -14,6 +14,12 @@ paginate: true
 
 ---
 
+# Arquitecturas en la nube por lo que nacen estos sistemas
+
+![image](https://github.com/Deecellar/presentations/assets/12878831/8b9f4c3c-f2ff-4628-8fcf-b21b607e5196)
+
+---
+
 # Introducción a Vitess
 ![image](https://github.com/Deecellar/presentations/assets/12878831/f1f68be0-37af-457f-84cd-236e48b2bbc7)
 
@@ -59,6 +65,12 @@ paginate: true
 - Vitess tiene una comunidad activa y creciente de desarrolladores y usuarios.
 - Es parte de la CNCF, lo que garantiza su apoyo y desarrollo continuo.
 - Empresas conocidas, como YouTube, Slack y Square, utilizan Vitess en producción.
+
+---
+
+#Arquitectura de Vitess
+![image](https://github.com/Deecellar/presentations/assets/12878831/6c50b8d6-f65a-4461-84be-92a1aa773938)
+
 
 ---
 
