@@ -15,6 +15,7 @@ paginate: true
 ---
 
 # Introducción a Vitess
+![image](https://github.com/Deecellar/presentations/assets/12878831/f1f68be0-37af-457f-84cd-236e48b2bbc7)
 
 ---
 
@@ -82,8 +83,7 @@ paginate: true
 # Introducción a Galera Cluster
 ## Una solución de clustering de bases de datos altamente disponible
 
-![Galera Cluster](imagen/galera-cluster-logo.png)
-
+![Galera Cluster](https://github.com/Deecellar/presentations/assets/12878831/ddcdeeab-00b4-4040-93a7-8f549c5ba057)
 ---
 
 <!-- Slide: ¿Qué es Galera Cluster? -->
@@ -104,7 +104,7 @@ paginate: true
 
 <!-- Slide: Arquitectura de Galera Cluster -->
 # Arquitectura de Galera Cluster
-![Arquitectura de Galera Cluster](imagen/arquitectura-galera-cluster.png)
+![Arquitectura](https://github.com/Deecellar/presentations/assets/12878831/13489e3f-2801-4a7e-9650-d19c99fb7db5)
 
 ---
 
