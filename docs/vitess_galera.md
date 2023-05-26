@@ -69,7 +69,7 @@ paginate: true
 ---
 
 # Arquitectura de Vitess
-![image](https://github.com/Deecellar/presentations/assets/12878831/357109f1-0c2b-4cf6-b446-9daeb02c685d)
+![image](https://vitess.io/docs/14.0/overview/img/architecture.svg)
 
 
 ---
@@ -117,7 +117,8 @@ paginate: true
 
 <!-- Slide: Arquitectura de Galera Cluster -->
 # Arquitectura de Galera Cluster
-![Arquitectura](https://github.com/Deecellar/presentations/assets/12878831/13489e3f-2801-4a7e-9650-d19c99fb7db5)
+
+![image](https://github.com/Deecellar/presentations/assets/12878831/56f9cac6-672f-43ac-b12d-b21a84db0dd8)
 
 ---
 
