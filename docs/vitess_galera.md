@@ -200,8 +200,13 @@ paginate: true
 
 
 ---
+Bibliografia
 
+https://vitess.io/docs/17.0/
+https://galeracluster.com/
+https://hashicorp.github.io/field-workshops-nomad/slides/multi-cloud/nomad-oss/#8
 
+---
 
 # ¡Gracias por tu atención!
 
